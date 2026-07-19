@@ -1,6 +1,12 @@
-import React from 'react';
+// src/components/Header.jsx
+import React, { useState } from 'react';
+import SideMenu from './SideMenu';
 
-function Header() {
+function Header({ onSelectCategory }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
   return (
     <header className="header">
       <div className="container header-inner">
@@ -8,11 +14,14 @@ function Header() {
           <span className="brand-mark">RH</span>
           <span className="brand-name">Ваше название</span>
         </div>
-        <nav className="nav-links">
-          <a href="#catalog">Каталог</a>
-          <a href="#contacts">Контакты</a>
-        </nav>
+        <button className="catalog-toggle" onClick={toggleMenu}>
+          <span className="burger-icon">
+            <span></span><span></span><span></span>
+          </span>
+          <span>Каталог</span>
+        </button>
       </div>
+      <SideMenu isOpen={menuOpen} onClose={toggleMenu} onSelectCategory={onSelectCategory} />
     </header>
   );
 }

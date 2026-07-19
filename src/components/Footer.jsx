@@ -29,7 +29,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-copy">
-          <p>© 2026 RoyalHome. Все права защищены.</p>
+          <p>© 2026 ВАШЕ НАЗВАНИЕ. Все права защищены.</p>
         </div>
       </div>
     </footer>

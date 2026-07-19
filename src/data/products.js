@@ -4,6 +4,7 @@ export const products = [
     name: 'Угловой диван "Комфорт"',
     description: 'Мягкий угловой диван с механизмом раскладывания, ткань велюр',
     price: 129990,
+    category: 'Мягкая мебель',
     image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -11,6 +12,7 @@ export const products = [
     name: 'Кровать двуспальная "Грейс"',
     description: 'Кровать с ортопедическим основанием, из массива сосны',
     price: 89990,
+    category: 'Спальня',
     image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -18,6 +20,7 @@ export const products = [
     name: 'Стол обеденный "Дуб"',
     description: 'Раздвижной стол из массива дуба, 120–180 см',
     price: 74990,
+    category: 'Столы и стулья',
     image: 'https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -25,6 +28,7 @@ export const products = [
     name: 'Шкаф-купе "Орхидея"',
     description: 'Встроенный шкаф с зеркальными дверями, 4 секции',
     price: 159990,
+    category: 'Шкафы и комоды',
     image: 'https://images.unsplash.com/photo-1597006335778-a5b71cc5b2aa?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -32,6 +36,7 @@ export const products = [
     name: 'Кухонный гарнитур "Модерн"',
     description: 'Угловой кухонный гарнитур с фасадами из МДФ, 3 метра',
     price: 249990,
+    category: 'Кухня',
     image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=600&q=80',
   },
   {
@@ -39,6 +44,39 @@ export const products = [
     name: 'Кресло-качалка "Венге"',
     description: 'Классическое кресло-качалка из гнутой фанеры',
     price: 39990,
+    category: 'Мягкая мебель',
     image: 'https://images.unsplash.com/photo-1531948668396-0f8d3f3b9fb8?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 7,
+    name: 'Тумба прикроватная "Лайт"',
+    description: 'Компактная тумба с двумя ящиками, ЛДСП',
+    price: 15990,
+    category: 'Спальня',
+    image: 'https://images.unsplash.com/photo-1551298370-9d3d53740c6b?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 8,
+    name: 'Обеденный стул "Классик"',
+    description: 'Стул на деревянных ножках, мягкое сиденье',
+    price: 9990,
+    category: 'Столы и стулья',
+    image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 9,
+    name: 'Диван-книжка "Уют"',
+    description: 'Раскладной диван с механизмом книжка, ткань рогожка',
+    price: 78990,
+    category: 'Мягкая мебель',
+    image: 'https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&w=600&q=80',
+  },
+  {
+    id: 10,
+    name: 'Кухонный уголок "Семейный"',
+    description: 'Уголок с мягким сиденьем и столом, 4 места',
+    price: 34990,
+    category: 'Кухня',
+    image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=600&q=80',
   },
 ];

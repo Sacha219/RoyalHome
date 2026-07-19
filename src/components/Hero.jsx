@@ -7,7 +7,7 @@ function Hero() {
     <section className="hero">
       <img src={heroImage} alt="Мебель RoyalHome" />
       <div className="hero-content">
-        <p className="hero-eyebrow">Качество и стиль</p>
+        <p className="hero-eyebrow">Качество и стиль(можно и другое что-нибудь)</p>
         <h1>Мебель для вашего дома</h1>
       </div>
     </section>
